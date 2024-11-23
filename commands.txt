@@ -1,0 +1,8 @@
+sudo docker build ../../ -f Dockerfile -t sleepr_reservation
+
+sudo docker run sleepr_reservation
+
+sudo docker compose down
+
+sudo docker-compose up
+
