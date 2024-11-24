@@ -6,3 +6,10 @@ sudo docker compose down
 
 sudo docker-compose up
 
+nest g app auth
+
+nest g module users
+
+nest g controller users
+
+nest g service users

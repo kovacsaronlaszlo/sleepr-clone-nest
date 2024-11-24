@@ -17,15 +17,6 @@
         "tsConfigPath": "libs/common/tsconfig.lib.json"
       }
     },
-    "sleepr": {
-      "type": "application",
-      "root": "apps/sleepr",
-      "entryFile": "main",
-      "sourceRoot": "apps/sleepr/src",
-      "compilerOptions": {
-        "tsConfigPath": "apps/sleepr/tsconfig.app.json"
-      }
-    },
     "reservation": {
       "type": "application",
       "root": "apps/reservation",
@@ -33,6 +24,15 @@
       "sourceRoot": "apps/reservation/src",
       "compilerOptions": {
         "tsConfigPath": "apps/reservation/tsconfig.app.json"
+      }
+    },
+    "auth": {
+      "type": "application",
+      "root": "apps/auth",
+      "entryFile": "main",
+      "sourceRoot": "apps/auth/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/auth/tsconfig.app.json"
       }
     }
   },
